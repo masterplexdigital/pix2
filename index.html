@@ -7,30 +7,39 @@
   <title>Pague via Pix | Masterplex</title>
   <meta name="description" content="Pagamento via Pix rápido e seguro. Confirmação imediata.">
 
-  <!-- Open Graph (somente texto) -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="💳 Pix Masterplex R$50,00">
   <meta property="og:description" content="Pagamento rápido, seguro e confirmado na hora.">
   <meta property="og:url" content="https://checkout.masterplex.net/">
   <meta property="og:site_name" content="Masterplex">
 
-  <!-- Twitter (somente texto) -->
-  <meta name="twitter:card" content="summary">
+  <!-- ESSENCIAL pro WhatsApp -->
+  <meta property="og:image" content="https://checkout.masterplex.net/og.png">
+  <meta property="og:image:secure_url" content="https://checkout.masterplex.net/og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="💳 Pix Masterplex R$50,00">
   <meta name="twitter:description" content="Pagamento rápido, seguro e confirmado na hora.">
+  <meta name="twitter:image" content="https://checkout.masterplex.net/og.png">
 
-  <!-- Redirecionamento -->
+  <!-- Redirecionamento com delay (pra dar tempo do bot ler) -->
   <script>
-    window.location.replace("https://p.hoopay.com.br/v/18246b5a-a59f-4604-9a1e-9c006c9bfa97");
+    setTimeout(() => {
+      window.location.href = "https://p.hoopay.com.br/v/18246b5a-a59f-4604-9a1e-9c006c9bfa97";
+    }, 1200);
   </script>
 
-  <!-- Fallback (caso JS falhe) -->
   <noscript>
     <meta http-equiv="refresh" content="0;url=https://p.hoopay.com.br/v/18246b5a-a59f-4604-9a1e-9c006c9bfa97">
   </noscript>
 </head>
 
 <body>
-  <p>Redirecionando para pagamento...</p>
+  <p>Redirecionando...</p>
 </body>
 </html>
